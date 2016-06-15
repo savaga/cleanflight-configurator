@@ -55,7 +55,9 @@
     "configMigrationSuccessful": {
         "message": "Configuration migration complete, migrations applied: $1"
     },
-
+    "tabOSD": {
+        "message": "OSD"
+    },
     "tabFirmwareFlasher": {
         "message": "Firmware Flasher"
     },
@@ -1339,6 +1341,9 @@
     "firmwareFlasherLoadFirmwareFile": {
         "message": "Please load firmware file"
     },
+    "fontFlasherLoadFirmwareFile": {
+        "message": "Please load font file"
+    },
     "firmwareFlasherNoReboot": {
         "message": "No reboot sequence"
     },
@@ -1390,6 +1395,15 @@
     "firmwareFlasherFlashFirmware": {
         "message": "Flash Firmware"
     },
+    "fontFlasherButtonLoadLocal": {
+        "message": "Load Font [Local]"
+    },
+    "fontFlasherButtonLoadOnline": {
+        "message": "Load Font [Online]"
+    },
+    "fontFlasherFlashFont": {
+        "message": "Flash Font"
+    },
     "firmwareFlasherGithubInfoHead": {
         "message": "Github Firmware Info"
     },
@@ -1429,11 +1443,17 @@
     "firmwareFlasherHexCorrupted": {
         "message": "HEX file appears to be corrupted"
     },
+    "fontFlasherHexCorrupted": {
+        "message": "HEX file appears to be corrupted"
+    },
     "firmwareFlasherRemoteFirmwareLoaded": {
         "message": "<span style=\"color: #57a929\">Remote Firmware loaded, ready for flashing</span>"
     },
     "firmwareFlasherFailedToLoadOnlineFirmware": {
         "message": "Failed to load remote firmware"
+    },
+    "fontFlasherFailedToLoadOnlineFirmware": {
+        "message": "Failed to load remote font"
     },
 
     "ledStripHelp": {
